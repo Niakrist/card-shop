@@ -5,8 +5,8 @@ const MainMenu = () => {
 
   const mainMenu = ['Collections', 'Men', 'Women', 'About', 'Contact'];
   
-  const menuHtml = mainMenu.map(itemMenu => {
-    return <li><a className={classes.mainmenuItem} href="#!">{itemMenu}</a></li>
+  const menuHtml = mainMenu.map((itemMenu) => {
+    return <li><a className={classes.mainmenuItem} href={'#' + itemMenu.toLowerCase()}>{itemMenu}</a></li>
   })
 
   return (
@@ -14,6 +14,5 @@ const MainMenu = () => {
       {menuHtml}
     </ul>
   )
-
 }
 export default MainMenu
