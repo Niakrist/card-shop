@@ -1,0 +1,32 @@
+.mainmenu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  margin-right: auto;
+}
+
+.mainmenuItem {
+  color: inherit;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.mainmenuItem::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -47px;
+  height: 3px;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.25s ease-in-out;
+}
+.mainmenuItem:hover::after {
+  background-color: orange;
+}
