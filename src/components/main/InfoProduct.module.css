@@ -1,0 +1,33 @@
+.infoProduct {
+
+}
+
+
+.infoProductBrand {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: orange;
+  font-weight: 700;
+}
+
+.infoProductTitle {
+  margin-bottom: 35px;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.infoProductText {
+  margin-bottom: 25px;
+  color: gray;
+  line-height: 1.6; 
+}
+
+.price {
+  margin-bottom: 30px;
+}
+
+.infoProductBuy {
+ display: flex;
+ align-items: center;
+ gap: 20px; 
+}

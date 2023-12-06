@@ -1,13 +1,14 @@
 import React from "react";
 import classes from './Logo.module.css';
+import logoImg from './../../img/logo.svg';
 
 const Logo = () => {
   let logo = 'Sneakers';
   logo = logo.toLowerCase();
 
   return (
-    <div>
-      <a className={classes.logo} href="#!">{logo}</a>
+    <div className={classes.logo}>
+      <a href="#!"><img src={logoImg} alt="" /></a>
     </div>
   )
 
