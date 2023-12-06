@@ -3,8 +3,6 @@ import classes from './Logo.module.css';
 import logoImg from './../../img/logo.svg';
 
 const Logo = () => {
-  let logo = 'Sneakers';
-  logo = logo.toLowerCase();
 
   return (
     <div className={classes.logo}>

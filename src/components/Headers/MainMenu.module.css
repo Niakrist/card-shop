@@ -15,6 +15,12 @@
   text-decoration: none;
   font-family: sans-serif;
   position: relative;
+  color: rgba(128, 128, 128, 0.8);
+  transition: color 0.25s ease-in-out;
+}
+
+.mainmenuItem:hover {
+  color: orange
 }
 
 .mainmenuItem::after {
