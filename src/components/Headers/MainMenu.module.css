@@ -11,7 +11,7 @@
 }
 
 .mainmenuItem {
-  color: inherit;
+  color: rgba(128, 128, 128, 1);
   text-decoration: none;
   font-family: sans-serif;
   position: relative;
@@ -20,7 +20,7 @@
 }
 
 .mainmenuItem:hover {
-  color: orange
+  color: rgba(255, 165, 0, 1);
 }
 
 .mainmenuItem::after {

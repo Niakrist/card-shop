@@ -7,11 +7,9 @@ import classes from './Headers.module.css';
 function Headers() {
   return (
     <div className={classes.headers}>
-      
-    <Logo />
-    <MainMenu />
-    <Profile />
-
+      <Logo />
+      <MainMenu />
+      <Profile />
     </div>
   )
 }
