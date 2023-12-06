@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './Basket.module.css';
-import basketSvg from './../../../img/basket.svg'; 
+import basketSvg from './../../../img/icon-cart.svg'; 
 
 const Basket = () => {
   return (
